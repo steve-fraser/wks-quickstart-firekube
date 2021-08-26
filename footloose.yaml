@@ -10,7 +10,7 @@ machines:
       diskSize: 5GB
       kernel: weaveworks/ignite-kernel:4.19.47
       memory: 1GB
-    image: quay.io/footloose/centos7:0.6.0
+    image: quay.io/footloose/amazonlinux2
     name: node%d
     portMappings:
     - containerPort: 22
@@ -23,5 +23,5 @@ machines:
       hostPort: 30080
     privileged: true
     volumes:
-    - destination: /mnt/disk1/firekube/docker
+    - destination: /var/lib/docker
       type: volume
