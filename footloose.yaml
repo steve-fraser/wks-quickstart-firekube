@@ -10,7 +10,7 @@ machines:
       diskSize: 5GB
       kernel: weaveworks/ignite-kernel:4.19.47
       memory: 1GB
-    image: quay.io/footloose/amazonlinux2
+    image: quay.io/footloose/centos7:0.6.0
     name: node%d
     portMappings:
     - containerPort: 22
