@@ -90,7 +90,7 @@ const Machine = ({ id, privateIP, sshPort, role }) => ({
         apiVersion: 'baremetalproviderspec/v1alpha1',
         kind: 'BareMetalMachineProviderSpec',
         public: {
-          address: '127.0.0.1',
+          address: '192.168.7.67',
           port: sshPort,
         },
         private: {
