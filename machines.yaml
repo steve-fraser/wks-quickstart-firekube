@@ -16,8 +16,8 @@ items:
           address: 10.61.0.2
           port: 22
         public:
-          address: 127.0.0.1
-          port: 2222
+          address: 10.61.0.2
+          port: 22
 - apiVersion: cluster.k8s.io/v1alpha1
   kind: Machine
   metadata:
@@ -34,6 +34,6 @@ items:
           address: 10.61.0.3
           port: 22
         public:
-          address: 127.0.0.1
-          port: 2223
+          address: 10.61.0.3
+          port: 22
 kind: List
